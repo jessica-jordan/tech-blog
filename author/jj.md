@@ -1,7 +1,7 @@
 ---
 name: Jessica Jordan
 id: jj
-image: /images/jessica.jpg
+image: /images/jj.jpeg
 cover:
 website: http://jessicajordan.de
 twitter: jjordan_dev
