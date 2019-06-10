@@ -51,9 +51,13 @@
     "eslint-plugin-node": "^9.0.1",
     "loader.js": "^4.7.0",
     "prember": "^1.0.3",
-    "qunit-dom": "^0.8.4"
+    "qunit-dom": "^0.8.4",
+    "sass": "^1.21.0"
   },
   "engines": {
     "node": "8.* || >= 10.*"
+  },
+  "dependencies": {
+    "ember-cli-sass": "^10.0.1"
   }
 }
