@@ -73,7 +73,7 @@ Finally, use the `Shift` key in addition to the controls mentioned above to jump
 
 ### Quick Access to Navigation Elements Using the VoiceOver Rotor
 
-The VoiceOver rotor feature provides a way to skim through different types of navigation elements quickly. Especially for sighted users the graphic user interface of this util comes into handy to have an overview of the navigation options when you do not have a cheat sheet at hand.
+The **VoiceOver rotor** feature provides a way to skim through different types of navigation elements quickly. Especially for sighted users the graphic user interface of this util comes into handy to have an overview of the navigation options when you do not have a cheat sheet at hand.
 
 To use it, press `Control` + `Option` + `Command` and navigate in between the different categories using the left and right arrow keys:
 
@@ -88,8 +88,13 @@ Once a category has been selected, flip through all elements of that respective 
 
 Testing websites using a screen reader will be a powerful method for asserting that the websites you're building are accessible to everyone. Once you feel more familiar with keyboard controls and your screen readers' short cuts, I highly recommend to test your websites as close to your site's user experience as possible: with the screen shut off.
 
-While you're testing your website without any visual feedback, find out for yourself how easy or hard it really is to find your page's main navigation. How easy is it to skim through your site's headings? Do you still find it effortless to navigate to the following page?
+While you're testing your website without any visual feedback, find out for yourself how easy or hard it is to find your page's main navigation. How easy is it to skim through your site's headings? Do you find it straightforward to navigate to the following page?
 
 I hope this quick guide to using screen readers for sighted developers has been helpful for you to understand the importance of screen reader-driven user testing and how it will help you to create a better understanding for the accessibility of the applications you're building.
 
 Questions? Suggestions? Send me an [email](mailto:me@jessicajordan.de) or ping me on [Twitter](https://twitter.com/jjordan_dev) ✨
+
+## Sources
+
+- [WEBAIM: Using VoiceOver to Evaluate Web Accessibility](https://webaim.org/articles/voiceover)
+- [Marco Zehe: Why Accessibility APIs Matter](https://marcozehe.wordpress.com/2013/09/07/why-accessibility-apis-matter/)
