@@ -23,7 +23,7 @@ A **screen reader** is a form of **assistive technology** that is oftentimes use
 
 Even though there is a range of different modi of screen readers used by your website's audience, the most popular types of device is the **text-to-speech** screen reader which this article is focussing on.
 
-## Why You Should Know How A Screen Reader Works When You Are Sighted
+## Why You Should Know How a Screen Reader Works If You Are Sighted
 
 With a near perfect (either corrected or not) vision, you might never feel the need to use a screen reader when browsing the internet. So obviously, there's no need for you to understand how screen readers work or how to use one, is there?
 
@@ -37,7 +37,7 @@ To be able to manually test websites for accessibility concerns, getting familia
 
 Today there are plenty of text-to-speech screen readers available, which differ in the way they evaluate web pages. If you want to learn more about how a screen reader works under the hood and which implications this has on different behaviours of screen reader and browser combinations, you should read [this excellent blog post](https://marcozehe.wordpress.com/2013/09/07/why-accessibility-apis-matter/) by accessibility platform engineer [Marco Zehe](https://twitter.com/MarcoInEnglish).
 
-If you're looking for a free screen reader to get started, you can check out [**Voice Over**](https://www.apple.com/accessibility/mac/vision/) (Mac OSX), [**NVDA**](https://www.nvaccess.org/download/) (Windows) or [**Orca**](https://help.gnome.org/users/orca/stable/)(Linux).
+If you're looking for a free screen reader to get started, you can check out [**Voice Over**](https://www.apple.com/accessibility/mac/vision/) (Mac OSX), [**NVDA**](https://www.nvaccess.org/download/) (Windows) or [**Orca**](https://help.gnome.org/users/orca/stable/) (Linux).
 
 ## Getting Familiar with the Screen Reader of Your Choice
 
@@ -69,7 +69,7 @@ The vast majority of short cuts in VoiceOver are a combination of the `Control` 
 
 When on a website, you can navigate between elements in their hierarchical order as indicated through the HTML markup using `Control` + `Option` + the left / right arrow keys.
 
-Finally, use the `Shift` key in addition to the controls mentioned above to jump back to the previous element of the same kind.
+Use the `Shift` key in addition to the controls mentioned above to jump back to the previous element of the same kind. Finally, if you're ever getting stuck inside a particular part of the site, use `Control` + `Option` + `Shift` + the up and down arrow keys to navigate between different levels of content (e.g. to jump from a paragraph back to the parent `main` element).
 
 ### Quick Access to Navigation Elements Using the VoiceOver Rotor
 
@@ -86,15 +86,16 @@ Once a category has been selected, flip through all elements of that respective 
 
 ## Testing Websites Authentically
 
-Testing websites using a screen reader will be a powerful method for asserting that the websites you're building are accessible to everyone. Once you feel more familiar with keyboard controls and your screen readers' short cuts, I highly recommend to test your websites as close to your site's user experience as possible: with the screen shut off.
+Testing websites using a screen reader will be a powerful method for asserting that the websites you're building are **accessible to everyone**. Once you feel more familiar with keyboard controls and your screen readers' short cuts, I highly recommend to test your websites as close to the UX of your site's users as possible: with the screen shut off.
 
 While you're testing your website without any visual feedback, find out for yourself how easy or hard it is to find your page's main navigation. How easy is it to skim through your site's headings? Do you find it straightforward to navigate to the following page?
 
 I hope this quick guide to using screen readers for sighted developers has been helpful for you to understand the importance of screen reader-driven user testing and how it will help you to create a better understanding for the accessibility of the applications you're building.
 
-Questions? Suggestions? Send me an [email](mailto:me@jessicajordan.de) or ping me on [Twitter](https://twitter.com/jjordan_dev) ✨
+Questions? Suggestions? Send me an [e-mail](mailto:me@jessicajordan.de) or ping me on [Twitter](https://twitter.com/jjordan_dev) ✨
 
 ## Sources
 
 - [WEBAIM: Using VoiceOver to Evaluate Web Accessibility](https://webaim.org/articles/voiceover)
 - [Marco Zehe: Why Accessibility APIs Matter](https://marcozehe.wordpress.com/2013/09/07/why-accessibility-apis-matter/)
+- [Daniel Mclaughlan on Twitter: Screen reader driven page navigation across document levels](https://twitter.com/straydogstrut7/status/1147616978271645696)
