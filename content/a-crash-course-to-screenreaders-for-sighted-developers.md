@@ -39,6 +39,7 @@ Today there are plenty of text-to-speech screen readers available, which differ 
 
 If you're looking for a free screen reader to get started, you can check out [**Voice Over**](https://www.apple.com/accessibility/mac/vision/) (Mac OSX), [**NVDA**](https://www.nvaccess.org/download/) (Windows) or [**Orca**](https://help.gnome.org/users/orca/stable/) (Linux).
 
+
 ## Getting Familiar with the Screen Reader of Your Choice
 
 Since shortcuts between screen readers and operating systems differ, it is necessary to familiarise yourself with some of the most important shortcuts to navigate websites by reading their documentation.
@@ -52,6 +53,8 @@ What you'd like to know more about are the controls for jumping between
 - graphics
 
 and how to activate form controls or links. Being comfortable with utilising this set of controls you should already be ready to navigate and explore web pages using the keyboard and a screen reader in tandem.
+
+In the following, we'll take a closer look at some useful commands for using **VoiceOver**. Even though VoiceOver is used as [a primary screen reader by only 11.7%](https://webaim.org/projects/screenreadersurvey7/#primary) of respondents of WEBAIM's [Screen Reader User Survey in 2017](https://webaim.org/projects/screenreadersurvey7), this screen reader is just like NVDA entirely free and will make it easy for you to get started with screen reader driven testing when you're on an OSX machine.
 
 ## Navigation Basics for Using VoiceOver
 
@@ -88,7 +91,15 @@ Once a category has been selected, flip through all elements of that respective 
 
 Testing websites using a screen reader will be a powerful method for asserting that the websites you're building are **accessible to everyone**. Once you feel more familiar with keyboard controls and your screen readers' short cuts, I highly recommend to test your websites as close to the UX of your site's users as possible: with the screen shut off.
 
+### Try Testing Without Visual Feedback
+
 While you're testing your website without any visual feedback, find out for yourself how easy or hard it is to find your page's main navigation. How easy is it to skim through your site's headings? Do you find it straightforward to navigate to the following page?
+
+### Try Testing With Different Screen Readers
+
+According to the [latest WEBAIM Screen Reader User Survey](https://webaim.org/projects/screenreadersurvey7), your website's user base will be using different screen readers when visiting your website, with **JAWS** and **NVDA** being the most common ones. If you haven't done so already, be sure to give testing with these often-used screen readers a shot if applicable for your machine's operating system and find out for yourself, if your website is stable and working as expected across different screen reader & browser combinations.
+
+## Get Started with Screen Reader-Driven User Testing Today
 
 I hope this quick guide to using screen readers for sighted developers has been helpful for you to understand the importance of screen reader-driven user testing and how it will help you to create a better understanding for the accessibility of the applications you're building.
 
@@ -96,6 +107,8 @@ Questions? Suggestions? Send me an [e-mail](mailto:me@jessicajordan.de) or ping 
 
 ## Sources
 
+- A special thank you goes to [@LeonieWatson](https://twitter.com/LeonieWatson) for reviewing this blog post and providing insightful feedback on screen reader usage statistics. You can follow her work on [her blog](https://tink.uk/) or on [Twitter](https://twitter.com/LeonieWatson) ✨
 - [WEBAIM: Using VoiceOver to Evaluate Web Accessibility](https://webaim.org/articles/voiceover)
 - [Marco Zehe: Why Accessibility APIs Matter](https://marcozehe.wordpress.com/2013/09/07/why-accessibility-apis-matter/)
 - [Daniel Mclaughlan on Twitter: Screen reader driven page navigation across document levels](https://twitter.com/straydogstrut7/status/1147616978271645696)
+- [WEBAIM: Screen Reader User Survey 2017 - Results](https://webaim.org/projects/screenreadersurvey7)
